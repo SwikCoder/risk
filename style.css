@@ -1,0 +1,15 @@
+body {
+  background-color: #3997BF;
+}
+
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-linejoin:round;}
+	.st2{fill:#FFFFFF;stroke:#000000;stroke-width:3.7838;stroke-linejoin:round;}
+	.st3{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:none;}
+  .st5{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+
+/* When mouse hovers region, changes color 
+.st1:hover {
+    fill: #DA4567;
+  }
+*/
