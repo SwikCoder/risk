@@ -7,8 +7,24 @@ body {
 	.st3{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
 	.st4{fill:none;}
         .st5{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
-svg {
+
+html, body
+{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+div {
+    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+div svg {
+    position:absolute;
     vertical-align: middle;
+    margin:auto;
 }
 
 /* When mouse hovers region, changes color 
