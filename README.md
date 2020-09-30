@@ -1,4 +1,5 @@
 # Simple Risk
+![simple risk](https://i.ibb.co/Zdn0qsT/57316-F7-F-8556-4-DF7-913-F-FC7-D7817-D59-F.jpg)
 > Bring Risk to your classroom!
 
 Are you a teacher? Why not implementing Risk as one of your teaching methods? Let your students answer questions and reward them with regions.
