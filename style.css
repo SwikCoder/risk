@@ -1,11 +1,22 @@
+.noselect { 
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
 svg {
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+#hide {
+  display: none;
 
-
+}
 body {
   background-color: #3997BF;
 }
@@ -14,25 +25,28 @@ body {
 	.st2{fill:#FFFFFF;stroke:#000000;stroke-width:3.7838;stroke-linejoin:round;}
 	.st3{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
 	.st4{fill:none;}
-        .st5{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+  .st5{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st6{font-family:'MyriadPro-Regular';}
+	.st7{font-size:6px;}
+	.st8{font-size:4.279px;}
+	.st9{font-size:4.5514px;}
+	.st10{font-size:6.3159px;}
+	.st11{font-size:4.3605px;}
+	.st12{font-size:3.8381px;}
+	.st13{font-size:4.482px;}
+	.st14{font-size:4.8855px;}
+	.st15{font-size:5.1746px;}
+	.st16{font-size:3.7318px;}
+	.st17{font-size:4.1667px;}
+	.st18{font-size:3.3378px;}
+	.st19{font-size:3.0545px;}
+	.st20{font-size:4.0173px;}
 
-html, body
-{
-    height: 100%;
-    margin:0;
-    padding:0;
-}
 
-div {
-    position:relative;
-    height: 100%;
-    width:100%;
-}
-
-div svg {
-    position:absolute;
-    vertical-align: middle;
-    margin:auto;
+#zone{
+  height: 34px;
+  width: 60px;
+  float:left;
 }
 
 /* When mouse hovers region, changes color 
@@ -40,3 +54,66 @@ div svg {
     fill: #DA4567;
   }
 */
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #000000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #000000;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
