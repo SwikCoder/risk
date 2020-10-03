@@ -1,11 +1,22 @@
+.noselect { 
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
 svg {
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+#hide {
+  display: none;
 
-
+}
 body {
   background-color: #3997BF;
 }
@@ -15,7 +26,21 @@ body {
 	.st3{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
 	.st4{fill:none;}
   .st5{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
-
+	.st6{font-family:'MyriadPro-Regular';}
+	.st7{font-size:6px;}
+	.st8{font-size:4.279px;}
+	.st9{font-size:4.5514px;}
+	.st10{font-size:6.3159px;}
+	.st11{font-size:4.3605px;}
+	.st12{font-size:3.8381px;}
+	.st13{font-size:4.482px;}
+	.st14{font-size:4.8855px;}
+	.st15{font-size:5.1746px;}
+	.st16{font-size:3.7318px;}
+	.st17{font-size:4.1667px;}
+	.st18{font-size:3.3378px;}
+	.st19{font-size:3.0545px;}
+	.st20{font-size:4.0173px;}
 
 
 #zone{

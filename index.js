@@ -1,12 +1,15 @@
 var clicks = 0;
+var countryNames = document.getElementById("hide");
 
-function showNames(checkboxElem) {
-    if (checkboxElem.checked) {
-        //This should show the names
-      } else {
-        //This should remove the names
-      }
-}
+//Shows and hides country names
+function showNames() {
+    
+    if (countryNames.style.display === "block") {
+      countryNames.style.display = "none";
+    } else {
+      countryNames.style.display = "block";
+    }
+  }
 
 //Changes to color on 1st click
 function changeColor(event) { 
