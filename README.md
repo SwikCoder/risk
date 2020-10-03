@@ -14,9 +14,11 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Release History
 
-* 0.1.0
+* v1.0
+    * Final release
+* v0.1.0
     * Beta release
-* 0.0.1
+* v0.0.1
     * Work in progress
 
 ## Meta
