@@ -13,9 +13,8 @@ svg {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-#hide {
+#names {
   display: none;
-
 }
 body {
   background-color: #3997BF;
@@ -40,7 +39,8 @@ body {
 	.st17{font-size:4.1667px;}
 	.st18{font-size:3.3378px;}
 	.st19{font-size:3.0545px;}
-	.st20{font-size:4.0173px;}
+  .st20{font-size:4.0173px;}
+  #names
 
 
 #zone{

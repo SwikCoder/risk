@@ -1,5 +1,5 @@
 var clicks = 0;
-var countryNames = document.getElementById("hide");
+var countryNames = document.getElementById("names");
 
 //Shows and hides country names
 function showNames() {
@@ -15,8 +15,8 @@ function showNames() {
 function changeColor(event) { 
     clicks++
 
-    if (clicks == 1) {
-        event.target.style.fill = "#DA4567";
+    if (clicks == 1)  {
+      event.target.style.fill = "#DA4567";
   }
     if (clicks == 2) {
         event.target.style.fill = "#7aeb34";
