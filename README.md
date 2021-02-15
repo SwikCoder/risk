@@ -14,6 +14,8 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Release History
 
+* v1.1
+    * Saves update
 * v1.0
     * Final release
 * v0.1.0
@@ -24,8 +26,10 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 ## Meta
 
 Aris Martínez – amartinezv0308@gmail.com
-
 [https://github.com/Swilkery](https://github.com/Swilkery)
+
+Nicolás de Rivas – lolero2003@gmail.com
+[https://github.com/nrivasm](https://github.com/nrivasm)
 
 ## Contributing
 
