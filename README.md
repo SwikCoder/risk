@@ -15,7 +15,7 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 ## Release History
 
 * v1.1
-    * Saves update
+    * Save and load games update
 * v1.0
     * Final release
 * v0.1.0
