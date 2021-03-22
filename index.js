@@ -137,7 +137,7 @@ function load(num){
   var saveobj = JSON.parse(getCookie("save" + num));
   document.getElementById('Italy').style.fill = saveobj.Italy;
   document.getElementById('Norway').style.fill = saveobj.Norway;
-  document.getElementById('Sweeden ').style.fill = saveobj.Sweeden;
+  document.getElementById('Sweeden').style.fill = saveobj.Sweeden;
   document.getElementById('US').style.fill = saveobj.US;
   document.getElementById('Canada').style.fill = saveobj.Canada;
   document.getElementById('Greenland').style.fill = saveobj.Greenland;
