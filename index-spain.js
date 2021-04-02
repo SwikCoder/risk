@@ -111,6 +111,8 @@ function save(num){
     'ESVI': document.getElementById('ESVI').style.fill,
     'ESZ': document.getElementById('ESZ').style.fill,
     'ESZA': document.getElementById('ESZA').style.fill,
+    'ESDFG': document.getElementById('ESDFG').style.fill,
+    'ESDFH': document.getElementById('ESDFH').style.fill,
   }
   var save = JSON.stringify(saveobj)
   setCookie("save" + num, save, 10);
@@ -191,4 +193,6 @@ function load(num){
   document.getElementById('ESVI').style.fill = saveobj.ESVI;
   document.getElementById('ESZ').style.fill = saveobj.ESZ;
   document.getElementById('ESZA').style.fill = saveobj.ESZA;
+  document.getElementById('ESDFG').style.fill = saveobj.ESDFG;
+  document.getElementById('ESDFH').style.fill = saveobj.ESDFH;
 }
