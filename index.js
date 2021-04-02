@@ -62,6 +62,7 @@ window.onclick = function(event) {
 //JSON saving
 function save(num){
   var saveobj = {
+    'Afghanistan': document.getElementById('Afghanistan').style.fill,
     'Norway': document.getElementById('Norway').style.fill,
     'Sweeden': document.getElementById('Sweeden').style.fill,
     'Italy': document.getElementById('Italy').style.fill,
@@ -135,6 +136,7 @@ return "";
 
 function load(num){
   var saveobj = JSON.parse(getCookie("save" + num));
+  document.getElementById('Afghanistan').style.fill = saveobj.Afghanistan;
   document.getElementById('Italy').style.fill = saveobj.Italy;
   document.getElementById('Norway').style.fill = saveobj.Norway;
   document.getElementById('Sweeden').style.fill = saveobj.Sweeden;
