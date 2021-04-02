@@ -62,7 +62,7 @@ window.onclick = function(event) {
 //JSON saving
 function save(num){
   var saveobj = {
-    'Norway': document.getElementById('Afghanistan').style.fill,
+    'Afghanistan': document.getElementById('Afghanistan').style.fill,
     'Norway': document.getElementById('Norway').style.fill,
     'Sweeden': document.getElementById('Sweeden').style.fill,
     'Italy': document.getElementById('Italy').style.fill,
