@@ -14,6 +14,8 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Release History
 
+* v1.2
+    * Welcome Spain
 * v1.1
     * Save and load games update
 * v1.0
