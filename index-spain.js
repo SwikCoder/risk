@@ -62,6 +62,7 @@ window.onclick = function(event) {
 //JSON saving
 function save(num){
   var saveobj = {
+    'ESDFJ': document.getElementById('ESDFJ').style.fill,
     'ESA': document.getElementById('ESA').style.fill,
     'ESAB': document.getElementById('ESAB').style.fill,
     'ESAL': document.getElementById('ESAL').style.fill,
@@ -145,6 +146,7 @@ return "";
 function load(num){
   var saveobj = JSON.parse(getCookie("save" + num));
   document.getElementById('ESA').style.fill = saveobj.ESA;
+  document.getElementById('ESDFJ').style.fill = saveobj.ESDFJ;
   document.getElementById('ESAB').style.fill = saveobj.ESAB;
   document.getElementById('ESAL').style.fill = saveobj.ESAL;
   document.getElementById('ESAV').style.fill = saveobj.ESAV;
